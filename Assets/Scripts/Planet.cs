@@ -85,6 +85,6 @@ public class Planet : MonoBehaviour, IPlaneteryObject
     {
         Mass = Random.Range(0.0f, 5000f);
         Radius = Random.Range(0f, 27f);
-        transform.localScale = new Vector3(m_radius / 5, m_radius / 5, 1.0f);
+        transform.localScale = new Vector3(m_radius / 12.5f, m_radius / 12.5f, 1.0f);
     }
 }
